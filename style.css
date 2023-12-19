@@ -1,0 +1,75 @@
+.body{
+    padding: 50px;
+    background-color: #66ffff;
+}
+.rose{
+    background-color: #336666;
+    border-radius: 10px;
+}
+.container{
+    border-radius: 10px;
+}
+.container input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    
+}
+
+.container .btn{
+    width: 100%;
+    background-color: #336666;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.container .btnactive , .container .btn:hover , .val:hover{
+    background-color: hsl(172, 67%, 45%);
+}
+input:focus{
+    font-size: 20px;
+}
+ ::placeholder {
+    color: #336666;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;  
+}
+.val{
+    width: 100%;
+    height: 40px;
+    background-color: #effffd;
+    border-radius: 10px;
+}
+.val::placeholder{
+    text-align: center;
+}
+.val:focus{
+    color: white;
+    text-align: center;
+}
+.long{
+    width: 97%;
+    background-color: #effffd;
+    padding: 10px 0;
+}
+.affiche1 ,.affiche2{
+    color: hsl(172, 67%, 45%);
+}
+.reset{
+    background-color: #1d786d;
+    width: 100%;
+}
+h3{
+    color: #336666;
+}
+.colonne{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
